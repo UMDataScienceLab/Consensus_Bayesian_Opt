@@ -18,6 +18,4 @@ Python version 3.9.16
 
 Our CSDC algorithm can also be applied to many other testing functions. Please modify the code to run more simulations. For example, in the Levy_code.ipynb file:
 
-Change 
-
-*   globals()['original_train_Y_%s' % i] = globals()['temp_train_Y_%s' % i] = globals()['train_Y_%s' % i] = Levy(dim=input_dim, negate=True)(eval('train_X_%d' % (i))).unsqueeze(-1)
+* Change "Levy()" in the line "globals()['original_train_Y_%s' % i] = globals()['temp_train_Y_%s' % i] = globals()['train_Y_%s' % i] = Levy(dim=input_dim, negate=True)(eval('train_X_%d' % (i))).unsqueeze(-1)" to other function name.

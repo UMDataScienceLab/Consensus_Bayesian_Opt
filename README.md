@@ -9,4 +9,5 @@ Python version 3.9.16
 # Code files
 
 (1) Branin_code.ipynb: code to test the collaborative algorithm on the Branin function.
+
 (2) Shekel_code.ipynb: code to test the collaborative algorithm on the Shekel function.

@@ -2,6 +2,8 @@
 
 Code for the paper entitled "Collaborative and Distributed Bayesian Optimization via Consensus"
 
+Clients run Bayesian optimization together, agreeing (reaching consensus) on their next designs to sample.
+
 [Paper](https://doi.org/10.1109/TASE.2025.3529349) (IEEE Transactions on Automation Science and Engineering, 2025). If you use this code, please cite:
 
 ```bibtex
@@ -14,6 +16,7 @@ Code for the paper entitled "Collaborative and Distributed Bayesian Optimization
   year={2025},
   doi={10.1109/TASE.2025.3529349}
 }
+```
 
 # Our Algorithm
 
